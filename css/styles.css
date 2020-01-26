@@ -37,3 +37,11 @@ body {
 .navbar-dark {
    background-color: #512DA8; 
 }
+
+.bg-card-header {
+    background-color: #FDC02F;
+}
+
+.btn-space {
+    margin-right: 15px;
+}
