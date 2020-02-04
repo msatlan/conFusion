@@ -61,3 +61,23 @@ body {
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+
+.no-padding {
+    padding: 0px 0px 0px 0px;
+}
+
+.btn-bg-green {
+    background-color: green;
+}
+
+.btn-bg-red {
+    background-color: red;
+}
+
+.btn-bg-gray {
+    background-color:gray;
+}
+
+.btn-text-color {
+    color: white;
+}
