@@ -124,18 +124,14 @@
                         </div>
                         <div class="form-group row">
                             <label for="section" class="col-sm-3 col-form-label"><strong>Section</strong></label>
-                            <div class="btn-group col-sm-7" data-toggle="buttons">
-                                <div class="custom-control custom-radio no-padding">
-                                    <label class="btn btn-default btn-bg-green btn-text-color active">
-                                        <input type="radio" class="custom-control-input" id="nonSmoking" name="nonSmoking" checked> Non-Smoking
-                                    </label>
-                                </div>
-                                <div class="custom-control custom-radio no-padding">
-                                    <label class="btn btn-default btn-bg-red btn-text-color">
-                                        <input type="radio" class="custom-control-input" id="smoking" name="nonSmoking"> Smoking
-                                    </label>
-                                </div>
-                            </div>
+                            <div class="col-sm-7 btn-group btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-success active">
+                                  <input type="radio" name="options" id="Non Smoking" autocomplete="off" checked> Non Smoking
+                                </label>
+                                <label class="btn btn-danger">
+                                  <input type="radio" name="options" id="Smoking" autocomplete="off"> Smoking
+                                </label>
+                              </div>
                         </div>
                         <div class="form-group row">
                             <label for="dateTime" class="col-sm-3 col-form-label"><strong>Date and Time</strong></label>
@@ -149,7 +145,7 @@
                         <div class="form-group row">
                             <div class="btn-group offset-sm-3 col-sm-7">
                                 <div>
-                                    <button type="close" data-dismiss="modal" class="btn btn-space btn-bg-gray btn-text-color">Cancel</button>
+                                    <button type="close" data-dismiss="modal" class="btn btn-space-small btn-bg-gray btn-text-color">Cancel</button>
                                 </div>
                                 <div>
                                     <button type="submit" class="btn btn-primary">Reserve</button>

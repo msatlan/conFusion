@@ -46,6 +46,10 @@ body {
     margin-right: 15px;
 }
 
+.btn-space-small {
+    margin-right: 5px;
+}
+
 .btn-bg {
     background-color: #FDC02F;
     
